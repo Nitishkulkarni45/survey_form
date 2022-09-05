@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="info_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Survey Form</h2>
+    <div class="main">
+        
+        <p>Let us know how we can improve our instagram Page</p>
+        <div class="info">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <div class="naam">
+        
+                            * Name: 
+                        </div>
+                    </td>
+                    <td>
+                        <input class="one" type="text" placeholder="Enter your name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="mail">
+                            * Email: 
+                        </div>
+                    </td>
+                    <td>
+                        <input  class="one" type="email" placeholder="Enter your Email"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="umr">
+                            * Age: 
+                            </div>
+                    </td>
+                    <td>
+                        <input  class="one" id="age" type="number" placeholder="Age"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="option">
+                            <label class="opt" for="role">Which option describes your current role?:</label>
+                           
+                        </div> <br>
+                    </td>
+                    <td>
+                        <select id="role">
+                            <option value="Student">Student</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="Professional Traveller">Professional Traveller</option>
+                            <option value="Blogger">Blogger</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        * How likely will you suggest our page to others?
+                     
+                    </td>
+                    <td>
+                        <input type="radio" id="first">
+                        <label for="first">Definitely</label><br>
+                        <input type="radio" id="second">
+                        <label for="second">Maybe</label><br>
+                        <input type="radio" id="third">
+                        <label for="third">Never</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="content">What do you want us to post on daily feed?</label>
+                       
+                    </td>
+                    <td>
+                        <select id="content">
+                            <option value="Temples">Temples</option>
+                            <option value="Nature">Nature</option>
+                            <option value="Beaches">Beaches</option>
+                            <option value="Unexplored">Unexplored Places</option>
+                            <option value="Restaurants & cafes">Restaurants & cafes</option>
+                            <option value="Hotels">Hotels</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="opinion"> What can be improved by us in future:</label><br>
+
+                        
+                    </td>
+                
+                        <td>
+                            <div class="area">
+                            <textarea id="text" name="text" rows="10" cols="20"></textarea>
+                        </div>
+                        </td>
+                    
+                </tr>
+            </table>
+             </form>
+        </div>
+    </div>
+</body>
+</html>
