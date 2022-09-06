@@ -12,7 +12,7 @@ body{
     height: 100vh;
 }
 .info{
-    margin-left: 225px;
+    margin-left: 460px;
 }
 .one{
     margin-bottom: 15px;
@@ -29,9 +29,33 @@ body{
 }
 
 .opt{
-    margin-left: 20px;
+    margin-left: -218px;
 }
 .area{
     margin-top: 50px;
 }
 
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.how{
+    margin-left: 20px;
+}
+.do{
+    margin-left: -20px;
+}
+.teen{
+    margin-left: -26px;
+}
+.dummi{
+    margin-left: -215px;
+}
+.dummu{
+    margin-left: -188px;
+}
+.data{
+    margin-left: -284px;
+}
